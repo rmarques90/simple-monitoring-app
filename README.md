@@ -25,6 +25,6 @@ Just run `./build-pkg.sh` and copy the `dist` folder :D
 
 #### Other systems:
 
-After you make your changes, just run `npm run build:npx`, or if you have PKG installed run `npm run build:pkg`.<br/> 
+After you make your changes, just run `npm install && npm run build:npx`, or if you have PKG installed run `npm install && npm run build:pkg`.<br/> 
 If you want to use the Linux/MacOS binaries, remember to give execution privileges running `chmod +x dist/monitoring-notify-linux && chmod +x dist/monitoring-notify-macos`. <br />  
 When the process finished, it's ready to use!
