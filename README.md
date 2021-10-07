@@ -1,4 +1,4 @@
-#Simple Monitoring Notify
+# Simple Monitoring Notify
 
 This is an application to make simple monitoring in some URL, and be notified about it when it fails.
 
@@ -8,7 +8,7 @@ You can configure the notification name, URL to request, headers, and etc.
 
 ----
 
-##How to use
+## How to use
 
 In the folder `dist` you can find running applications, ready to use. Just copy the entire `dist` folder to your system and run the application for your system :D
 
