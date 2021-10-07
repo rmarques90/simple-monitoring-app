@@ -19,4 +19,12 @@ If you want to change something, or customize it, you will need:
 * `NodeJS >= 12`
 * `PKG 5.3.3 (optional)`
 
-After you make your changes, just run `npm run build:npx`, or if you have PKG installed run `npm run build:pkg`. When the process finished, it's ready to use!
+#### If you are on Unix system: 
+
+Just run `./build-pkg.sh` and copy the `dist` folder :D
+
+#### Other systems:
+
+After you make your changes, just run `npm run build:npx`, or if you have PKG installed run `npm run build:pkg`.<br/> 
+If you want to use the Linux/MacOS binaries, remember to give execution privileges running `chmod +x dist/monitoring-notify-linux && chmod +x dist/monitoring-notify-macos`. <br />  
+When the process finished, it's ready to use!
